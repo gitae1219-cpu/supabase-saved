@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>저장한 영화</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>저장한 영화</h1>
+        <p>Supabase 데이터베이스에 저장된 영화 목록입니다.</p>
+    </header>
+    
+    <main class="container">
+        <button id="loadSavedBtn" class="btn" type="button">저장된 영화 조회</button>
+        <section id="savedMovieList" class="movie-list"></section>
+    </main>
+
+    <!-- ctrl+space : 자동완성 -->
+    <script type="module" src="js/05supabase_edit.js"></script>
+
+
+</body>
+</html>
